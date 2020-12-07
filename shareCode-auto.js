@@ -8,18 +8,18 @@
 const $ = new Env("互助码");
 const shareCodes = [
   {
-    zd: $.getdata("zd_shareCode1") || "qu73szyyke7tv4sgpjojpyiq6u",
-    nc: $.getdata("nc_shareCode1") || "a1bc1602151a42d68fb8cf0ee93cc43d",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNDAwMDAwMDAyNzkyNjM4Mw==",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5kZ7fCKtjCEX",
-    jxgc: $.getdata("jx_shareCode1") || "k3XRgh9SqTEODDhQVrfL1A==",
+    zd: $.getdata("zd_shareCode1") || "7lzkhati3ilvflqbk2hz4jvai7ftvgdrdudcsqa",
+    nc: $.getdata("nc_shareCode1") || "e4b31a033ba141979ff063f56d63d1eb",
+    mc: $.getdata("mc_shareCode1") || "MTE1NDAxNzcwMDAwMDAwNDE0ODI1NzU=",
+    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5nJcbiaQoggU__-kKQC7",
+    jxgc: $.getdata("jx_shareCode1") || "ZSEyxYMsA5U1KX70VxuE0w==",
   },
   {
-    zd: $.getdata("zd_shareCode2") || "",
-    nc: $.getdata("nc_shareCode2") || "",
-    mc: $.getdata("mc_shareCode2") || "",
+    zd: $.getdata("zd_shareCode2") || "7oivz2mjbmnx5grpsc2q4ihcd3broul5vfyk55a",
+    nc: $.getdata("nc_shareCode2") || "abef1ecff6984e76afe71bf95f5f4e65",
+    mc: $.getdata("mc_shareCode2") || "MTEzMzI0OTE0NTAwMDAwMDA0MTY4NjM4NQ==",
     ddgc: $.getdata("dd_shareCode2") || "",
-    jxgc: $.getdata("jx_shareCode2") || "",
+    jxgc: $.getdata("jx_shareCode2") || "lOP_mbZCD1oD-iIrGrs6dQ==",
   },
 ];
 $.result = [];
