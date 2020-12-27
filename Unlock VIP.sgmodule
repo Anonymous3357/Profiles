@@ -4,9 +4,9 @@
 [Script]
 Peak Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Peak.js
 Gear Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Geist.js
-
+Xmind Pro = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/XMind.js
 
 
 
 [MITM]
-hostname = %APPEND% billing.peakcloud.org,buy.itunes.apple.com
+hostname = %APPEND% billing.peakcloud.org,buy.itunes.apple.com,*.xmind.*
