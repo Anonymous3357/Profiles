@@ -1,9 +1,9 @@
 #!name=Unlock VIP
-#!desc=Surge模块配置
+#!desc=Peak&Geist&Xmind 解锁VIP
 #!system=ios
 [Script]
 Peak Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Peak.js
-Gear Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Geist.js
+Geist Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Geist.js
 Xmind Pro = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/XMind.js
 
 
