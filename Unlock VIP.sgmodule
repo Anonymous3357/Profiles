@@ -2,6 +2,6 @@
 #!desc=Surge模块配置
 #!system=ios
 [Script]
-Peak Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Peak.js
+Peak Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Peak.js
 [MITM]
 hostname = %APPEND% billing.peakcloud.org
