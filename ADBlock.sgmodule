@@ -1,8 +1,8 @@
 #!name=AD Block
-#!desc=WeChat&YouTuber
+#!desc=WeChat&YouTube
 #!system=ios
 [Script]
-http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js
 http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js
 [MITM]
 hostname = %APPEND% *.googlevideo.com,mp.weixin.qq.com
