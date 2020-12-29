@@ -5,7 +5,7 @@
 Peak Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Peak.js
 Geist Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/Geist.js
 Xmind Pro = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shenshi12/Profiles/ma%D1%95ter/XMind.js
-WPS Pro = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users\/.*\/overview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/ma%D1%95ter/WPS.js
+WPS Pro = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users\/.*\/overview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/WPS.js
 
 
 [MITM]
