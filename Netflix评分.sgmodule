@@ -3,9 +3,9 @@
 #!system=ios
 [Script]
 
-nf_rating.js=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/nf_rating.js
+nf_rating.js= script-path= https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/nf_rating.js
 
-nf_rating_season.js=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/nf_rating_season.js
+nf_rating_season.js= script-path= https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/nf_rating_season.js
 
 [MITM]
 hostname = hostname = %APPEND% ios.prod.ftl.netflix.com
