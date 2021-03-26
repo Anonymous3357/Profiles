@@ -6,6 +6,9 @@
 [rewrite_local]
 #Python Ai解锁会员
 ^http:\/\/ws\.60he\.com\/(book|user).+ url script-response-body pyai.js
+Surge
+
+Python = type=http-response,pattern=^http:\/\/ws\.60he\.com\/(book\.|user).+,requires-body=1,max-size=0,timeout=1000,script-path=Python AI 2.js
 
 [mitm]
 hostname= ws.60he.com
