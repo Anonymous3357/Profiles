@@ -9,6 +9,10 @@ Notability.js = script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlef
 XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
 WPS = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users\/.*\/overview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/LTribeSkyx/Script/master/WPS.js,script-update-interval=0
 
+Photoshop = type=http-response,pattern=^https:\/\/.*\.adobe\..*\/mobile_profile\/nul\/v\d$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ps.js,script-update-interval=0
+
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js
+
 Peak  Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/Peak.js
 Geist Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/Geist.js
 Python = type=http-response,pattern=^http:\/\/ws\.60he\.com\/(book\.|user).+,requires-body=1,max-size=0,timeout=1000,script-path=Python AI 2.js
@@ -17,5 +21,5 @@ Python = type=http-response,pattern=^http:\/\/ws\.60he\.com\/(book\.|user).+,req
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login,requires-body=1,max-size=0,script-path=https://6678888.xyz/quantumultX/xmbs.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com
+hostname = %APPEND% spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com, mp.weixin.qq.com, *.adobe.*
 
