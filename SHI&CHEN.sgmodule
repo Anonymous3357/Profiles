@@ -11,7 +11,7 @@ WPS = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users\/.*\/o
 
 Photoshop = type=http-response,pattern=^https:\/\/.*\.adobe\..*\/mobile_profile\/nul\/v\d$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ps.js,script-update-interval=0
 
-http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path= https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/WeChat.conf
 
 Peak  Pro = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/Peak.js
 Geist Pro = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Anonymous3357/Profiles/Module/Geist.js
