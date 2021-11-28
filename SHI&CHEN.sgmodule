@@ -20,6 +20,8 @@ Python = type=http-response,pattern=^http:\/\/ws\.60he\.com\/(book\.|user).+,req
 小米运动 = type=cron,cronexp=10 20 * * *,wake-system=1,timeout=3600,script-path=https://6678888.xyz/quantumultX/xmbs.js,script-update-interval=0
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login,requires-body=1,max-size=0,script-path=https://6678888.xyz/quantumultX/xmbs.js,script-update-interval=0
 
+Pillow = type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts),requires-body=1,max-size=0,script-path=Pillow.js
+
 [MITM]
-hostname = %APPEND%  spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com, mp.weixin.qq.com, *.adobe.*,
+hostname = %APPEND%  spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com, mp.weixin.qq.com, *.adobe.*, api.revenuecat.com
 
