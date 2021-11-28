@@ -21,5 +21,5 @@ Pillow = type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscri
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login,requires-body=1,max-size=0,script-path=https://6678888.xyz/quantumultX/xmbs.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com.spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com, mp.weixin.qq.com, *.adobe.*
+hostname = %APPEND%  api.revenuecat.com,spclient.wg.spotify.com ,notability.com, *.xmind.*, account.wps.cn, pan.baidu.com, billing.peakcloud.org,buy.itunes.apple.com,,ws.60he.com, account.huami.com, mp.weixin.qq.com, *.adobe.*
 
